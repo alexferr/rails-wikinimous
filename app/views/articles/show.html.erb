@@ -1,0 +1,14 @@
+<div class="article-show">
+  <h1><%= @article.title %></h1>
+  <p><%= @article.content %></p>
+</div>
+
+<div>
+  <%= link_to 'Back to articles', '/articles' %>
+  <%= link_to 'Edit this article', "/articles/#{@article.id}/edit" %>
+  <%= link_to "Delete this article",
+              article_path(@article),
+              method: :delete,
+              data: { confirm: "Are you sure?" } %>
+</div>
+

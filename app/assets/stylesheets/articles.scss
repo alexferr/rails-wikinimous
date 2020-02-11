@@ -1,0 +1,88 @@
+// Place all the styles related to the Articles controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+p {
+  font-family: "roboto";
+  font-size: 16px;
+  color: grey;
+  margin: 10px;
+}
+
+h1 {
+  flex-grow: 3;
+  font-family: "roboto";
+  font-size: 32px;
+  padding: 10px;
+}
+
+h2 {
+  font-family: "roboto";
+  font-size: 24px;
+}
+
+.title {
+  font-family: "roboto";
+  font-size: 18px;
+  background: none;
+  text-decoration: none;
+  color: blue;
+  padding: 0px;
+}
+
+.article {
+  background-color: #F2F2F2;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+
+.form * {
+  font-family: "roboto";
+  font-size: 16px;
+  margin: 5px;
+}
+
+a {
+  background-color: blue;
+  padding: 15px;
+  margin: 10px;
+  font-family: "roboto";
+  font-size: 16px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
+}
+
+.article-show {
+  margin-bottom: 50px;
+  padding: 10px;
+}
+
+.submit {
+  background-color: blue;
+  padding: 15px;
+  margin: 10px;
+  font-family: "roboto";
+  font-size: 16px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
+}
+
+.edit_article * {
+  font-family: "roboto";
+  font-size: 16px;
+  margin: 5px;
+}
